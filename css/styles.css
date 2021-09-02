@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 62.5%;
+  /* background-color: rgb(68, 68, 95); */
+  /* color: #fff; */
+
+  /* losing case */
+  /* background-color: rgb(241, 135, 108); */
+
+  /*game case*/
+  background-color: #fff;
+}
+
+/* .main {
+  margin: 15rem auto 0 auto;
+  width: 50%;
+  text-align: center;
+} */
+
+.main-heading {
+  font-weight: 400;
+  font-size: 4rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 3rem;
+}
+
+.main-btn-start,
+.main-btn-try {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  padding: 1rem 1.2rem;
+  border: none;
+  border-radius: 0.2rem;
+}
+
+..main-btn-start {
+  color: #fff;
+  background-color: rgb(241, 166, 80);
+  box-shadow: 2px 2px 2px 2px rgba(241, 166, 80, 0.692);
+}
+
+.main-btn-try {
+  background-color: #fff;
+  color: rgb(241, 135, 108);
+  box-shadow: 2px 2px 2px 2px rgba(180, 179, 179, 0.849);
+}
+
+.main-lose {
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+
+.phrase {
+  display: flex;
+  width: 90%;
+  margin: 5rem auto;
+  justify-content: center;
+}
+
+.phrase-letter-holder {
+  padding: 1.5rem 2rem;
+  font-size: 1.5rem;
+  background-color: rgb(217, 217, 218);
+  border-radius: 0.2rem;
+  margin-left: 0.15rem;
+}
+
+.phrase-word-gap {
+  margin-left: 1rem;
+}
+
+.phrase-letter-correct {
+  background-color: rgb(72, 213, 238);
+  color: #fff;
+}
+
+.letter {
+  display: flex;
+  width: 50%;
+  margin: 8rem auto 5rem auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.letter-holder {
+  padding: 0.8rem 1.4rem;
+  font-size: 1.5rem;
+  background-color: rgb(231, 231, 231);
+  border-radius: 0.4rem;
+  margin: 1rem 0 0 1rem;
+}
+
+.letter-correct {
+  background-color: rgb(68, 68, 95);
+  color: #fff;
+}
+
+.letter-incorrect {
+  background-color: rgb(241, 166, 80);
+  color: #fff;
+}
+
+.heart-holder {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.heart {
+  font-size: 500%;
+  /* color: rgb(192, 191, 191); */
+  color: rgb(108, 164, 202);
+}
